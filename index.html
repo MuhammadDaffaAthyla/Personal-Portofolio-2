@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1></h1>
+</body>
+<!-- ── NAVBAR ─────────────────────── -->
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <span class="logo-icon">&#9670;</span>
+      <span class="logo-text">DevStudio</span>
+    </div>
+
+    <ul class="navbar__links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="navbar__cta">
+      <a href="#" class="btn-primary">Hire Me</a>
+    </div>
+  </nav>
+
+  <header>
+  <div class="logo">DevStudio</div>
+  <button>Hire Me</button>
+</header>
+
+<div class="container">
+  <div class="available">Available for Work</div>
+  <h1>Hi, saya <span><strong>Muhammad Daffa Athyla</strong></span><br />Web Developer</h1>
+  <p class="desc">
+    Mahasiswa Sistem Informasi dengan pengalaman proyek di bidang pengembangan website,
+    database, dan sistem informasi. Berkomitmen menghadirkan solusi teknologi yang modern dan efektif.
+  </p>
+  <button class="portfolio-btn">Lihat Portfolio</button>
+  <button class="contact-btn">Hubungi Saya</button>
+</div>
+
+<section class="counter-section">
+  <h2>Berapa Kali Kamu Minum Air Hari Ini?</h2>
+  <div class="counter-container">
+    <button id="btn-kurang" class="counter-btn">−</button>
+    <span id="angka-counter">0</span>
+    <button id="btn-tambah" class="counter-btn">+</button>
+  </div>
+  <p id="counter-pesan">Yuk mulai minum air!</p>
+</section>
+
+<div class="container skills">
+  <h2>Keahlian Saya</h2>
+  <p>Teknologi yang saya kuasai</p>
+  
+  <div class="skill-card">
+    <img src="https://img.icons8.com/ios-filled/50/000000/document--v1.png" alt="HTML Icon"/>
+    <div class="skill-content">
+      <strong>HTML5</strong>
+      Semantic markup, aksesibilitas, dan struktur dokumen yang baik.
+    </div>
+  </div>
+  
+  <div class="skill-card">
+    <img src="https://img.icons8.com/ios-filled/50/000000/color-palette.png" alt="CSS Icon"/>
+    <div class="skill-content">
+      <strong>CSS3</strong>
+      Flexbox, Grid, animasi, dan responsive design untuk semua layar.
+    </div>
+  </div>
+</div>
+
+<div class="container portfolio">
+  <h2>My Portfolio</h2>
+  <p>project yang pernah saya kerjakan</p>
+
+   <div class="portfolio-card">
+    <img src="c:\Users\toshiba\Downloads\private-customer-main-image.jpg" alt="Simple Login App"/>
+    <h3>Personal Portofolio Website</h3>
+    <p>Personal Portofolio Website menggunakan HTML, CSS, dan JavaScript.</p>
+    <div class="tags">
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JavaScript</span>
+    </div>
+    <a href="#" class="view-project">View Project</a>
+  </div>
+</div>
+
+<div class="container contact-info">
+  <h2>Get In Touch</h2>
+  <p>Tertarik bekerja sama? Kirim pesan dan saya akan segera membalas.</p>
+  
+  <h3>Contact Information</h3>
+  
+  <div class="contact-item">
+      <img src="https://img.icons8.com/color/48/000000/place-marker.png" alt="Location Icon"/>
+      <strong>Location</strong>&nbsp;Medan, Sumatra Utara
+  </div>
+  <div class="contact-item">
+      <img src="https://img.icons8.com/ios/50/000000/new-post.png" alt="Email Icon"/>
+      <strong>Email</strong>&nbsp;dr3117402@gmail.com
+  </div>
+  <div class="contact-item">
+      <img src="https://img.icons8.com/ios/50/000000/iphone.png" alt="Phone Icon"/>
+      <strong>Phone</strong>&nbsp;081260609450
+  </div>
+  
+  <div class="social-links">
+    <a href="#" target="_blank">LinkedIn</a>
+    <a href="#" target="_blank">GitHub</a>
+    <a href="#" target="_blank">Instagram</a>
+  </div>
+  <button id="dark-toggle" class="dark-btn">🌙 Dark Mode</button>
+</div>
+
+<!-- ── FOOTER ──────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span class="footer__brand">&#9670; DevStudio</span>
+        <p class="footer__copy">
+          &copy; 2025 Muhammad Daffa Athyla. Dibuat dengan HTML & CSS murni.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+<section class="form-section">
+  <h2>Hubungi Kami</h2>
+  <div class="form-container">
+    <input type="text" id="input-nama" placeholder="Nama lengkap" />
+    <input type="email" id="input-email" placeholder="Alamat email" />
+    <textarea id="input-pesan" placeholder="Pesan kamu..." rows="4"></textarea>
+    <button id="btn-kirim">Kirim Pesan</button>
+    <div id="form-feedback" class="feedback hidden"></div>
+  </div>
+</section>
+
+
+</body>
+
+</html>
